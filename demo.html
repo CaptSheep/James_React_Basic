@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<input type="text" oninput="show(this.value)">-->
+<canvas id="canvas" width="500px" height=" 500 px"  style="border: 1px solid black"></canvas>
+<script>
+class Rectangle{
+    x;
+    y;
+    width;
+    height;
+    color;
+
+    constructor(x, y, width, height,color) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.color = color
+        this.canvas = document.getElementById('canvas')
+        this.ctx = this.canvas.getContext('2d')
+    }
+    render(){
+        this.ctx.beginPath()
+        this.ctx.rect(this.x,this.y,this.width,this.height)
+        this.ctx.fillStyle = this.color
+        this.ctx.fill()
+        this.ctx.closePath()
+    }
+
+}
+let rec = new Rectangle(50,50,150,100,'Blue')
+rec.render()
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.center{
+    max-width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-49%, -49%);
+
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 20%;
+    height: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
