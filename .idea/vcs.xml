@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MD3_CRUDquanlisinhvien" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/React_James" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/basic_state" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo_props" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/login_form" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student_list" vcs="Git" />
+  </component>
+</project>
